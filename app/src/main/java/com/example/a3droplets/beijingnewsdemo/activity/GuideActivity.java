@@ -1,6 +1,7 @@
 package com.example.a3droplets.beijingnewsdemo.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -15,6 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.example.a3droplets.beijingnewsdemo.R;
+import com.example.a3droplets.beijingnewsdemo.base.CacheUtils;
 import com.example.a3droplets.beijingnewsdemo.base.DensityUtils;
 
 import java.util.ArrayList;
@@ -66,7 +68,7 @@ public class GuideActivity extends Activity {
              * 单位是像素
              * 把单位当成dp转成对应的像数
              */
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(widthdpi,10);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(widthdpi,35);
             if (i != 0){
                 //不包括第0个，所有的点距离左边有10个像数
                 params.leftMargin = widthdpi;
@@ -83,6 +85,20 @@ public class GuideActivity extends Activity {
 
         //得到屏幕滑动的百分比
         viewpager.addOnPageChangeListener(new MyOnPageChangeListener());
+
+        btn_start_main.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //1.保存参数，记录已经进入过引导页面，下次就不进
+                CacheUtils.putBoolean(GuideActivity.this,SplashActivity.START_MAIN,true);
+
+                //2.进入主页面
+                Intent intent = new Intent(GuideActivity.this,MainActivity.class);
+                startActivity(intent);
+                //3.关闭引导界面
+                finish();
+            }
+        });
     }
 
     class MyPagerAdapter extends PagerAdapter {
@@ -146,10 +162,10 @@ public class GuideActivity extends Activity {
 
     class MyOnPageChangeListener implements ViewPager.OnPageChangeListener {
         /**
-         * @param position 当前滑动页面的位置
-         * @param positionOffset 页面滑动的百分比
+         * @param position             当前滑动页面的位置
+         * @param positionOffset       页面滑动的百分比
          * @param positionOffsetPixels 滑动的像数
-         * */
+         */
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             //两点间移动的距离 = 屏幕滑动百分比 * 间距
@@ -158,8 +174,8 @@ public class GuideActivity extends Activity {
 
             //两点间滑动距离对应的坐标 = 原来的起始位置 + 两点间移动的位置
 
-            int leftmargin = (int)((position*leftmax)+(positionOffset * leftmax));
-            RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams)iv_red_point.getLayoutParams();
+            int leftmargin = (int) ((position * leftmax) + (positionOffset * leftmax));
+            RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams) iv_red_point.getLayoutParams();
             params.leftMargin = leftmargin;
             iv_red_point.setLayoutParams(params);
 
@@ -167,20 +183,26 @@ public class GuideActivity extends Activity {
 
         /**
          * 当页面被选中的时候，回调这个方法
+         *
          * @param position 被选中页面的对应位置
-         * */
+         */
         @Override
         public void onPageSelected(int position) {
 
-            if (position == imageViews.size()-1){
+            if (position == imageViews.size() - 1) {
                 //最后一个页面
                 btn_start_main.setVisibility(View.VISIBLE);
+            } else {
+                //隐藏按钮
+                btn_start_main.setVisibility(View.GONE);
             }
         }
 
         /**
          * 当ViewPager页面滑动状态发生变化的时候
-         * @param state  */
+         *
+         * @param state
+         */
         @Override
         public void onPageScrollStateChanged(int state) {
 
