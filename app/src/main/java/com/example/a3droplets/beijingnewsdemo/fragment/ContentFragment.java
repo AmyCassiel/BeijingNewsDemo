@@ -165,13 +165,13 @@ public class ContentFragment extends BaseFragment {
      * 得到新闻中心
      * @return
      */
-    public HomePager getNewsCenterPAger(){
+    public HomePager getNewsCenterPager(){
         return (HomePager)basePagers.get(0);
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        ButterKnife.reset(this);
+     //   ButterKnife.bind(MainActivity.MAIN_CONTENT_TAG);
     }
 }

@@ -67,22 +67,23 @@ public class MainActivity extends SlidingFragmentActivity {
         slidingMenu.setBehindOffset((int) (screenWidth*0.625));
 
     }
-    /**
-     * 得到左侧菜单fragment
-     * @return
-     */
-    public LeftmenuFragment getLeftmenuFragment(){
-//        FragmentManager fragmentManager = getSupportFragmentManager();
-//        LeftmenuFragment  LF = (LeftmenuFragment) fragmentManager.findFragmentById(Integer.parseInt(LEFTMENU_TAG));
 
-
-        return (LeftmenuFragment) getSupportFragmentManager().findFragmentById(Integer.parseInt(LEFTMENU_TAG));
-    }
     /**
      * 得到正文fragment
      * @return
      */
     public ContentFragment getContentFragment(){
         return (ContentFragment)getSupportFragmentManager().findFragmentByTag(MAIN_CONTENT_TAG);
+    }
+    /**
+     * 得到左侧菜单fragment
+     * @return
+     */
+    public LeftmenuFragment getLeftMenuFragment() {
+        //        FragmentManager fragmentManager = getSupportFragmentManager();
+//        LeftmenuFragment  LF = (LeftmenuFragment) fragmentManager.findFragmentById(Integer.parseInt(LEFTMENU_TAG));
+
+
+        return (LeftmenuFragment) getSupportFragmentManager().findFragmentById(Integer.parseInt(LEFTMENU_TAG));
     }
 }
