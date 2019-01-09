@@ -1,1 +1,4 @@
 include ':app', ':SlidingMenu_library', ':xUtils3-sample', ':xutils'
+include ':library'
+include ':ViewPagerIndicator_sample'
+include ':Android-PullToRefresh_library'

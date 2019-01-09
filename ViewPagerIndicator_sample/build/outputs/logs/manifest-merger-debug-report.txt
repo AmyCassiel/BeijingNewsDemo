@@ -1,0 +1,341 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-292:12
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-292:12
+MERGED from [:library] D:\Amy\BeijingNewsDemo\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\fe6d69932b85083c1e770ddbd6242cc1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\2c21ab2b2af64be20fa49733bfe2c0c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dad9e3eba8b636aff981c919656f63ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3782d8c83611a60f35575b8bbca0112e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\17dc26da1a3e20388f517995248fc040\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e0f5995c97002cd1dd92ccd10f8a0ee8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f3e18dbe2724246d085d2940558d11a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\034dd0c9ea965c330b0a11630c991ad6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\14ae61836f2ddb53dd2f5a9e1163b6b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d6e94f1fb61402927620ceb50d84fb0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\3e844ab67b071bf63f9606eccf6efa33\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\fcb95690f6033e2c122d51ed40e6b8aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8da703343ff8925f81c85fb26951663d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8ea898af46246ec74b4ee88aa4067b5b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7839514dfeeb848e696785799088f67c\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d643459b43826e7c5a3c397f96ea1625\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7e68586edabf3bcd39294ac9f9b18889\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7e0e9e4afc4c34ecf9dcfd27c237a643\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\159e030e576abb2170ba5fa772dc7ad0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d133a2b482d19deb6d11513820e4e5a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0c8f8b84c425b727ddf7bc60bd88d005\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\554f2430f9937d6cc194b8fede2dbd9e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\83793c17c60daf2b8d94a2f247ffe544\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\bc080df213fd8a70722269d40d02d845\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6f1768400a3b2330963c26d4eb5726ab\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:1-292:12
+	package
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:5:5-291:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8ea898af46246ec74b4ee88aa4067b5b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8ea898af46246ec74b4ee88aa4067b5b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7839514dfeeb848e696785799088f67c\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7839514dfeeb848e696785799088f67c\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8ea898af46246ec74b4ee88aa4067b5b\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:6:9-50
+	android:icon
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:7:9-38
+activity#com.viewpagerindicator.sample.ListSamples
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:9:9-17:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:11:13-48
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:10:13-40
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:15:27-74
+activity#com.viewpagerindicator.sample.SampleCirclesDefault
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:22:9-29:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:24:13-44
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:23:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:com.jakewharton.android.viewpagerindicator.sample.SAMPLE
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:25:13-28:29
+category#com.jakewharton.android.viewpagerindicator.sample.SAMPLE
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:27:17-101
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:27:27-98
+activity#com.viewpagerindicator.sample.SampleCirclesInitialPage
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:30:9-37:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:31:13-53
+activity#com.viewpagerindicator.sample.SampleCirclesSnap
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:38:9-45:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:40:13-41
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:39:13-46
+activity#com.viewpagerindicator.sample.SampleCirclesStyledLayout
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:46:9-54:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:48:13-56
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:49:13-55
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:47:13-54
+activity#com.viewpagerindicator.sample.SampleCirclesStyledMethods
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:55:9-63:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:57:13-57
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:58:13-55
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:56:13-55
+activity#com.viewpagerindicator.sample.SampleCirclesStyledTheme
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:64:9-72:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:66:13-55
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:67:13-52
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:65:13-53
+activity#com.viewpagerindicator.sample.SampleCirclesWithListener
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:73:9-80:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:75:13-50
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:74:13-54
+activity#com.viewpagerindicator.sample.SampleIconsDefault
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:85:9-92:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:87:13-42
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:86:13-47
+activity#com.viewpagerindicator.sample.SampleLinesDefault
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:98:9-105:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:100:17-46
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:99:17-51
+activity#com.viewpagerindicator.sample.SampleLinesStyledLayout
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:106:9-114:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:108:17-58
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:109:17-59
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:107:17-56
+activity#com.viewpagerindicator.sample.SampleLinesStyledMethods
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:115:9-123:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:117:17-59
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:118:17-59
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:116:17-57
+activity#com.viewpagerindicator.sample.SampleLinesStyledTheme
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:124:9-132:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:126:17-57
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:127:17-56
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:125:17-55
+activity#com.viewpagerindicator.sample.SampleTitlesBottom
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:137:9-144:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:139:13-52
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:138:13-47
+activity#com.viewpagerindicator.sample.SampleTitlesCenterClickListener
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:145:9-152:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:147:13-57
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:146:13-60
+activity#com.viewpagerindicator.sample.SampleTitlesDefault
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:153:9-160:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:155:13-43
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:154:13-48
+activity#com.viewpagerindicator.sample.SampleTitlesInitialPage
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:161:9-168:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:163:13-48
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:162:13-52
+activity#com.viewpagerindicator.sample.SampleTitlesStyledLayout
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:169:9-177:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:171:13-55
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:172:13-55
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:170:13-53
+activity#com.viewpagerindicator.sample.SampleTitlesStyledMethods
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:178:9-186:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:180:13-56
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:181:13-55
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:179:13-54
+activity#com.viewpagerindicator.sample.SampleTitlesStyledTheme
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:187:9-195:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:189:13-54
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:190:13-52
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:188:13-52
+activity#com.viewpagerindicator.sample.SampleTitlesTriangle
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:196:9-203:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:198:13-50
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:197:13-49
+activity#com.viewpagerindicator.sample.SampleTitlesWithListener
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:204:9-211:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:206:13-49
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:205:13-53
+activity#com.viewpagerindicator.sample.SampleTabsDefault
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:216:9-224:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:218:13-41
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:219:13-63
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:217:13-46
+activity#com.viewpagerindicator.sample.SampleTabsStyled
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:225:9-233:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:227:13-40
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:228:13-52
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:226:13-45
+activity#com.viewpagerindicator.sample.SampleTabsWithIcons
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:234:7-242:18
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:236:11-42
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:237:11-50
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:235:11-46
+activity#com.viewpagerindicator.sample.SampleUnderlinesDefault
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:247:9-254:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:249:17-51
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:248:17-56
+activity#com.viewpagerindicator.sample.SampleUnderlinesNoFade
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:255:9-262:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:257:17-51
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:256:17-55
+activity#com.viewpagerindicator.sample.SampleUnderlinesStyledLayout
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:263:9-271:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:265:17-63
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:266:17-59
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:264:17-61
+activity#com.viewpagerindicator.sample.SampleUnderlinesStyledMethods
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:272:9-280:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:274:17-64
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:275:17-59
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:273:17-62
+activity#com.viewpagerindicator.sample.SampleUnderlinesStyledTheme
+ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:281:9-289:20
+	android:label
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:283:17-62
+	android:theme
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:284:17-56
+	android:name
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml:282:17-60
+uses-sdk
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+MERGED from [:library] D:\Amy\BeijingNewsDemo\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:library] D:\Amy\BeijingNewsDemo\library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\fe6d69932b85083c1e770ddbd6242cc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\fe6d69932b85083c1e770ddbd6242cc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\2c21ab2b2af64be20fa49733bfe2c0c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\2c21ab2b2af64be20fa49733bfe2c0c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dad9e3eba8b636aff981c919656f63ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\dad9e3eba8b636aff981c919656f63ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3782d8c83611a60f35575b8bbca0112e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3782d8c83611a60f35575b8bbca0112e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\17dc26da1a3e20388f517995248fc040\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\17dc26da1a3e20388f517995248fc040\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e0f5995c97002cd1dd92ccd10f8a0ee8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e0f5995c97002cd1dd92ccd10f8a0ee8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f3e18dbe2724246d085d2940558d11a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f3e18dbe2724246d085d2940558d11a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\034dd0c9ea965c330b0a11630c991ad6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\034dd0c9ea965c330b0a11630c991ad6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\14ae61836f2ddb53dd2f5a9e1163b6b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\14ae61836f2ddb53dd2f5a9e1163b6b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d6e94f1fb61402927620ceb50d84fb0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\d6e94f1fb61402927620ceb50d84fb0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\3e844ab67b071bf63f9606eccf6efa33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\3e844ab67b071bf63f9606eccf6efa33\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\fcb95690f6033e2c122d51ed40e6b8aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\fcb95690f6033e2c122d51ed40e6b8aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8da703343ff8925f81c85fb26951663d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8da703343ff8925f81c85fb26951663d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8ea898af46246ec74b4ee88aa4067b5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8ea898af46246ec74b4ee88aa4067b5b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7839514dfeeb848e696785799088f67c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7839514dfeeb848e696785799088f67c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d643459b43826e7c5a3c397f96ea1625\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d643459b43826e7c5a3c397f96ea1625\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7e68586edabf3bcd39294ac9f9b18889\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7e68586edabf3bcd39294ac9f9b18889\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7e0e9e4afc4c34ecf9dcfd27c237a643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7e0e9e4afc4c34ecf9dcfd27c237a643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\159e030e576abb2170ba5fa772dc7ad0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\159e030e576abb2170ba5fa772dc7ad0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d133a2b482d19deb6d11513820e4e5a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d133a2b482d19deb6d11513820e4e5a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0c8f8b84c425b727ddf7bc60bd88d005\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\0c8f8b84c425b727ddf7bc60bd88d005\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\554f2430f9937d6cc194b8fede2dbd9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\554f2430f9937d6cc194b8fede2dbd9e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\83793c17c60daf2b8d94a2f247ffe544\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\83793c17c60daf2b8d94a2f247ffe544\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\bc080df213fd8a70722269d40d02d845\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\bc080df213fd8a70722269d40d02d845\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6f1768400a3b2330963c26d4eb5726ab\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\3droplets\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\6f1768400a3b2330963c26d4eb5726ab\AndroidManifest.xml:20:5-44
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		ADDED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml
+		INJECTED from D:\Amy\BeijingNewsDemo\ViewPagerIndicator_sample\src\main\AndroidManifest.xml

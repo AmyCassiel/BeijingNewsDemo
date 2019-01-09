@@ -4,8 +4,7 @@
     package="com.example.a3droplets.beijingnewsdemo">
 
     <!-- Required -->
-    <permission
-        android:name="com.atguigu.beijingnews.permission.JPUSH_MESSAGE"
+    <permission android:name="com.atguigu.beijingnews.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature" />
 
     <!-- Required  一些系统要求的权限，如访问网络等-->
@@ -52,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.GuideActivity" />
-        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.MainActivity" android:theme="@style/Theme.PageIndicatorDefaults" />
     </application>
 
 </manifest>

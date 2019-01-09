@@ -29,5 +29,7 @@ dependencies {
     implementation project(path: ':xutils')
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation project(path: ':library')
+    implementation project(path: ":Android-PullToRefresh_library")
     /*implementation 'com.jakewharton:butterknife:5.1.1'*/
 }
